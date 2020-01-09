@@ -33,15 +33,16 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   produce_storage_room = [
-      ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"].sort,
-      ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"].sort
+            #0          #1        #2          #3          #4
+      ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"].sort, #0
+      ["Strawberries", "Potatoes", "Grapes", "Avocadoes","Asparagus"].sort #1
     ]
 end
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
-  matrix[1][1]
+  matrix[0][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
